@@ -1,0 +1,49 @@
+.landingPage {
+	text-align: center;
+	margin: 23px;
+}
+
+.introBoxContainer {
+	padding: 20px;
+	padding-left: 20px !important;
+	display: flex;
+}
+
+.introBox {
+	text-align: center;
+	margin: 0 10px 0 10px;
+	flex-basis: 0;
+	flex: 1;
+}
+
+.fixed-action-btn {
+	margin-right: 15%;
+}
+
+body {
+	background-color: #77bef5;
+}
+
+.container {
+	background-color: white;
+  min-height: 100vh;
+
+}
+
+.survey-padding {
+	padding: 15px 15px 15px 15px;
+}
+
+ol {
+	margin-top: 20px;
+	list-style-position: inside;
+}
+
+.header-buttons{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.card-container {
+	margin: 15px;
+}
