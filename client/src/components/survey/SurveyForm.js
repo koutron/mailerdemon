@@ -8,7 +8,7 @@ import formFields from './formFields';
 
 class SurveyForm extends Component {
 	renderFields() {
-		return _.map(formFields, ({ label, name }) => {
+		return _.map(formFields, ({ label, name, placeholder }) => {
 			return (
 				<Field className="survey-new-fields"
 					component={SurveyField}
@@ -16,6 +16,7 @@ class SurveyForm extends Component {
 					type="text"
 					label={label}
 					name={name}
+					placeholder={placeholder}
 				/>
 			);
 		});

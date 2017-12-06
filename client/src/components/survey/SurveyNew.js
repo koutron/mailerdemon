@@ -27,8 +27,6 @@ class SurveyNew extends Component {
 
 		return (
 			<div>
-				<p style={{'margin-bottom': '3px', paddingLeft: '15px', color: '#9e9e9e'}}>"Yes" and "No" feedback links will be inserted at the bottom of the survey.</p>
-				<p style={{'margin-top': '3px', paddingLeft: '15px', color: '#9e9e9e'}}>When sending to multiple recipients, seperate email addresses with a comma.</p>
 				<SurveyForm
 					onSurveySubmit={() => this.setState({ showFormReview: true })}
 				/>
