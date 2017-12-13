@@ -5,16 +5,12 @@ module.exports = survey => {
 		<html>
 			<body>
 				<div style="text-align: center;">
-					<h3>
-						Could you take a moment to provide some feedback?
-					</h3>
-					<p>Please answer the following questions:</p>
 					<p>${survey.body}</p>
 					<div>
-						<a href="${keys.redirectDomain}/api/surveys/${survey.id}/yes">Yes</a>
+						<a href=`www.kouroscodes.com:9000/api/surveys/${survey.id}/yes`>Yes</a>
 					</div>
 					<div>
-						<a href="${keys.redirectDomain}/api/surveys/${survey.id}/no">No</a>
+						<a href=`www.kouroscodes.com:9000/api/surveys/${survey.id}/no`>No</a>
 					</div>
 				</div>
 			</body>
