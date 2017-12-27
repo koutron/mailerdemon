@@ -18,7 +18,7 @@ class App extends Component {
 				<BrowserRouter>
 					<div className="container">
 						<Header />
-						{console.log(this.props)}
+						
 						<Route exact path="/" component={this.props.auth ? Dashboard : Landing} />
 
 						<Route exact path="/surveys" component={Dashboard} />
